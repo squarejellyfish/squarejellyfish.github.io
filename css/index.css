@@ -1606,120 +1606,27 @@ blockquote > :last-child {
   margin-bottom: 0 !important;
 }
 :root {
-  --hl-color: #fbf1c7;
-  --hl-bg: #262626;
-  --hltools-bg: #212121;
-  --hltools-color: #fbf1c7;
-  --hlnumber-bg: #262626;
-  --hlnumber-color: rgba(251,241,199,0.5);
-  --hlscrollbar-bg: #3a3a3a;
-  --hlexpand-bg: linear-gradient(180deg, rgba(38,38,38,0.6), rgba(38,38,38,0.9));
+  --hl-color: #90a4ae;
+  --hl-bg: #f6f8fa;
+  --hltools-bg: #e6ebf1;
+  --hltools-color: #90a4ae;
+  --hlnumber-bg: #f6f8fa;
+  --hlnumber-color: rgba(144,164,174,0.5);
+  --hlscrollbar-bg: #dce4eb;
+  --hlexpand-bg: linear-gradient(180deg, rgba(246,248,250,0.6), rgba(246,248,250,0.9));
 }
 [data-theme='dark'] {
-  --hl-color: #fbf1c7;
-  --hl-bg: #262626;
+  --hl-color: #90a4ae;
+  --hl-bg: #f6f8fa;
   --hltools-bg: #1a1a1a;
-  --hltools-color: #fbf1c7;
+  --hltools-color: #90a4ae;
   --hlnumber-bg: #1d2021;
   --hlnumber-color: rgba(255,255,255,0.4);
   --hlscrollbar-bg: #1f1f1f;
   --hlexpand-bg: linear-gradient(180deg, rgba(23,23,23,0.6), rgba(23,23,23,0.9));
 }
-figure.highlight table {
-  scrollbar-color: var(--hlscrollbar-bg) transparent;
-}
-figure.highlight table::-webkit-scrollbar-thumb {
-  background: var(--hlscrollbar-bg);
-}
-figure.highlight pre .deletion {
-  color: #bf42bf;
-}
-figure.highlight pre .addition {
-  color: #105ede;
-}
-figure.highlight pre .meta {
-  color: #d3869b;
-}
-figure.highlight pre .comment {
-  color: #7c6f64;
-}
-figure.highlight pre .variable {
-  color: #fbf1c7;
-}
-figure.highlight pre .attribute,
-figure.highlight pre .regexp,
-figure.highlight pre .ruby .constant,
-figure.highlight pre .xml .tag .title,
-figure.highlight pre .xml .pi,
-figure.highlight pre .xml .doctype,
-figure.highlight pre .html .doctype,
-figure.highlight pre .css .id,
-figure.highlight pre .tag .name,
-figure.highlight pre .css .class,
-figure.highlight pre .css .pseudo {
-  color: #fb4934;
-}
-figure.highlight pre .tag {
-  color: #8ec07c;
-}
-figure.highlight pre .number {
-  color: #d3869b;
-}
-figure.highlight pre .preprocessor,
-figure.highlight pre .literal,
-figure.highlight pre .params,
-figure.highlight pre .constant,
-figure.highlight pre .command {
-  color: #fe8019;
-}
-figure.highlight pre .built_in {
-  color: #fe8019;
-}
-figure.highlight pre .ruby .class .title,
-figure.highlight pre .css .rules .attribute,
-figure.highlight pre .string {
-  color: #b8bb26;
-}
-figure.highlight pre .value,
-figure.highlight pre .inheritance,
-figure.highlight pre .header,
-figure.highlight pre .ruby .symbol,
-figure.highlight pre .xml .cdata,
-figure.highlight pre .special,
-figure.highlight pre .formula,
-figure.highlight pre .type {
-  color: #fabd2f;
-}
-figure.highlight pre .keyword {
-  color: #fb4934;
-}
-figure.highlight pre .title {
-  color: #fabd2f;
-}
-figure.highlight pre .css .hexcolor {
-  color: #8ec07c;
-}
-figure.highlight pre .function_ {
-  color: #b8bb26;
-  font-weight: bold;
-}
-figure.highlight pre .python .decorator,
-figure.highlight pre .python .title {
-  color: #b8bb26;
-}
-figure.highlight pre .ruby .function .title,
-figure.highlight pre .ruby .title .keyword,
-figure.highlight pre .perl .sub,
-figure.highlight pre .javascript .title,
-figure.highlight pre .coffeescript .title {
-  color: #83a598;
-}
-figure.highlight pre .tag .attr,
-figure.highlight pre .javascript .function {
-  color: #d3869b;
-}
 #article-container figure.highlight .line.marked {
-  background-color: rgba(113,124,180,0.314);
+  background-color: rgba(128,203,196,0.251);
 }
 #article-container figure.highlight table {
   display: block;
@@ -3825,7 +3732,7 @@ h1.page-title + .tag-cloud-list {
 }
 #pagination .prev_info,
 #pagination .next_info {
-  color: var(--white);
+  color: #fbf1c7;
   font-weight: 500;
 }
 #pagination .next-post .pagination-info {
